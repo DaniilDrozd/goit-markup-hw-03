@@ -210,6 +210,9 @@ ul {
   gap: 24px;
   padding-bottom: 120px;
 }
+.doing-iteam {
+  flex-basis: calc((100% - 48px) / 3);
+}
 .section-doing-doing {
   margin: 0 auto;
   text-align: center;
@@ -238,6 +241,7 @@ ul {
   gap: 24px;
 }
 .our-team-background {
+  flex-basis: calc((100%-72px) / 4);
   text-align: center;
   background-color: var(--main-title-color);
   background: var(--main-title-color);
@@ -301,8 +305,8 @@ ul {
 
 /* section last */
 .section-last {
-  padding-top: 96px;
-  padding-bottom: 107px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 
   background-color: var(--main-title-color4);
 }
@@ -481,14 +485,18 @@ ul {
 }
 .Project-list2 {
 }
-.about {
+
+.works-title {
+  padding-top: 32px;
   box-sizing: border-box;
   border: 1px solid white;
 }
-
+.Project-container {
+}
 .Project {
 }
 .project-iteam2 {
+  flex-basis: calc((100% - 48px) / 3);
   flex-wrap: wrap;
   gap: 24px;
   display: flex;
@@ -500,25 +508,29 @@ ul {
   margin-bottom: 48px;
 }
 .Project-title {
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  color: var(--main-title-color2);
+  color: var(--main-title-color4);
 }
 .Project-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
-  color: var(--main-title-color4);
+  color: var(--main-title-color2);
 }
 /* /Project */
 
 /* Logo and Text */
 
 .Logo {
+  padding-top: 100px;
+  padding-bottom: 100px;
   background-color: var(--main-title-color4);
 }
 .Logo-link {
+  margin-bottom: 16px;
   font-family: "Raleway";
   font-style: normal;
   text-transform: uppercase;
@@ -527,18 +539,20 @@ ul {
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
-  color: var(--main-title-color3);
+  color: var(--main-title-color5);
 }
 .second-Logo {
+  margin-bottom: 16px;
   color: var(--main-title-color);
 }
 .link {
 }
 .Text {
-  font-style: normal;
-
+  margin-top: 16px;
+  width: 264px;
   font-size: 16px;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--main-title-color);
 }
 
