@@ -5,6 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,7 +24,8 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
+    <header class="Header">
+      <div class="container Header-container">
       <nav class="header-navigation-sec">
         <a href="./index.html" class="logovier link"
           >Web<span class="second-logovier link">Studio</span>
@@ -33,7 +42,7 @@
           </li>
         </ul>
       </nav>
-      <address style="font-style: normal">
+      <address class="Header-address">
         <ul class="header-list list2">
           <li>
             <a href="mailto:info@devstudio.com" class="header-emaill link"
@@ -46,82 +55,105 @@
             >
           </li>
         </ul>
+      </div>
       </address>
     </header>
     <main>
       <!-- menu Nav-->
       <section class="portfolio-menu-Nav-2">
+        <div class="container">
         <ul class="portfolio-navigation list2">
-          <li>
+          <li class="portfolio-menu-li list">
             <button type="button" class="portfolio-menu-list">All</button>
           </li>
-          <li>
+          <li class="portfolio-menu-li">
             <button type="button" class="portfolio-menu-list2">Web Site</button>
           </li>
-          <li>
+          <li class="portfolio-menu-li">
             <button type="button" class="portfolio-menu-list2">App</button>
           </li>
           <li>
             <button type="button" class="portfolio-menu-list2">Design</button>
           </li>
-          <li>
+          <li class="portfolio-menu-li">
             <button type="button" class="portfolio-menu-list2">
               Marketing
             </button>
           </li>
         </ul>
+      </div>
       </section>
       <!--/ menu Nav -->
 
       <!--  Project -->
       <section class="Project">
-        <ul class="Project--list2">
-          <li class="Project-list2">
+        <div class="container Project-container">
+        <ul class="project-iteam2">
+          <li class="Project-list-2">
             <img src="./images/about-img-8.jpg.jpg" alt="" />
+            <div class="about">
             <h3 class="Project-title">Banking App Interface Concept</h3>
             <p class="Project-text">App</p>
+          </div>
           </li>
           <li class="Project-list2">
             <img src="./images/about-img-9.jpg.jpg" alt="" />
+            <div class="about">
             <h3 class="Project-title">Cashless Payment</h3>
             <p class="Project-text">Marketing</p>
+          </div>
           </li>
           <li class="Project-list2">
             <img src="./images/about-img-10.jpg.jpg" alt="" />
+            <div class="about">
             <h3 class="Project-title">Meditaion App</h3>
             <p class="Project-text">App</p>
+          </div>
           </li>
           <li class="Project-list2">
             <img src="./images/about-img-11.jpg.jpg" alt="" />
+            <div class="about">
             <h3 class="Project-title">Taxi Service</h3>
             <p class="Project-text">Marketing</p>
+          </div>
           </li>
           <li class="Project-list2">
             <img src="./images/about-img-12.jpg.jpg" alt="" />
+            <div class="about">
             <h3 class="Project-title">Screen Illustrations</h3>
             <p class="Project-text">Design</p>
+          </div>
           </li>
           <li class="Project-list2">
             <img src="./images/about-img-13.jpg.jpg" alt="" />
+            <div class="about">
             <h3 class="Project-title">Online Courses</h3>
             <p class="Project-text">Marketing</p>
+          </div>
           </li>
           <li class="Project-list2">
             <img src="./images/about-img-14.jpg.jpg" alt="" />
+            <div class="about">
             <h3 class="Project-title">Instagram Stories Concept</h3>
             <p class="Project-text">Design</p>
+          </div>
           </li>
           <li class="Project-list2">
             <img src="./images/about-img-15.jpg.jpg" alt="" />
+            <div class="about">
             <h3 class="Project-title">Organic Food</h3>
             <p class="Project-text">Web Site</p>
+          </div>
           </li>
           <li class="Project-list2">
             <img src="./images/about-img-16.jpg.jpg" alt="" />
+            <div class="about">
             <h3 class="Project-title">Fresh Coffee</h3>
             <p class="Project-text">Web Site</p>
+          </div>
           </li>
         </ul>
+      </div>
       </section>
       <!--/ Project -->
       <!-- <Logo and Text -->
