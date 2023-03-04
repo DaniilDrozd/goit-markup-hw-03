@@ -19,7 +19,9 @@ body {
   --main-title-color5: #404bbf;
 }
 img {
+  max-width: 100%;
   display: block;
+  height: auto;
 }
 h1,
 h2,
@@ -35,7 +37,7 @@ ul {
   padding: 0;
 }
 .container {
-  width: 1158px;
+  max-width: 1158px;
   margin-left: auto;
   padding-left: 15px;
   padding-right: 15px;
@@ -168,22 +170,22 @@ ul {
 }
 /* section about */
 .about {
+  padding: 120px 0;
+  flex-wrap: wrap;
   display: flex;
   gap: 24px;
-  padding-top: 120px;
-  padding-bottom: 120px;
+
   list-style: none;
 }
 .about-hidden {
 }
-.about-list {
+.goal-list {
+  display: flex;
+  list-style: none;
+  gap: 24px;
 }
 .about-item {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  flex-basis: calc(100% / 4);
-  margin-left: 24px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 .about-title {
   font-weight: 500;
@@ -195,7 +197,6 @@ ul {
 .about-text {
   margin-top: 8px;
   margin-bottom: 24px;
-  width: 267px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -208,7 +209,6 @@ ul {
   flex-wrap: wrap;
   display: flex;
   gap: 24px;
-  padding-bottom: 120px;
 }
 .doing-iteam {
   flex-basis: calc((100% - 48px) / 3);
@@ -227,8 +227,7 @@ ul {
 
 /* section Our team */
 .Our-team {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .our-team-sizes {
   padding-top: 32px;
