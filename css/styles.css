@@ -437,7 +437,7 @@ ul {
   padding-top: 96px;
   padding-bottom: 72px;
 }
-.visual-hidden-portfolio {
+.visually-hidden {
   position: absolute;
   top: -150%;
   z-index: -100;
