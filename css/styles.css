@@ -114,9 +114,7 @@ ul {
 .header-tel {
   font-size: 16px;
   line-height: 1.5;
-
   letter-spacing: 0.02em;
-
   color: var(--main-title-color2);
 }
 .header-email:hover,
@@ -429,7 +427,7 @@ ul {
   color: var(--main-title-color3);
 }
 
-/* Section menu Nav */
+/* <!-- Portfolio --> */
 .portfolio-menu-Nav-2 {
 }
 .portfolio-navigation {
@@ -439,7 +437,24 @@ ul {
   padding-top: 96px;
   padding-bottom: 72px;
 }
-
+.visual-hidden-portfolio {
+  position: absolute;
+  top: -150%;
+  z-index: -100;
+  width: 0;
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  user-select: none;
+  pointer-events: none;
+  cursor: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: none;
+  outline: none;
+  white-space: nowrap;
+}
 .portfolio-menu-list {
   cursor: pointer;
   margin-left: auto;
@@ -475,11 +490,10 @@ ul {
   letter-spacing: 0.04em;
 }
 
-/* Project */
-
 .Project-list-2 {
 }
-.Project-list2 {
+.portfolio-list-iteam {
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .works-title {
@@ -491,8 +505,7 @@ ul {
 }
 .Project {
 }
-.project-iteam2 {
-  flex-basis: calc((100% - 48px) / 3);
+.portfolio-list {
   flex-wrap: wrap;
   gap: 24px;
   display: flex;
@@ -516,8 +529,7 @@ ul {
   line-height: 1.5;
   color: var(--main-title-color2);
 }
-/* /Project */
-
+/* / Portfolio */
 /* Logo and Text */
 
 .Logo {
