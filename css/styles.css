@@ -194,7 +194,6 @@ ul {
 }
 .about-text {
   margin-top: 8px;
-  margin-bottom: 24px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -224,13 +223,13 @@ ul {
 /* section doing */
 
 /* section Our team */
-.Our-team {
+.our-team {
 }
 .our-team-sizes {
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.Our-team-list {
+.our-team-list {
   margin: 0 auto;
   text-align: center;
   display: flex;
